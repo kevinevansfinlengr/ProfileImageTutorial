@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		08F4916628B2B4B500FC413D /* ProfileImageTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F4916528B2B4B500FC413D /* ProfileImageTutorialApp.swift */; };
-		08F4916828B2B4B500FC413D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F4916728B2B4B500FC413D /* ContentView.swift */; };
+		08F4916828B2B4B500FC413D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F4916728B2B4B500FC413D /* ProfileView.swift */; };
 		08F4916A28B2B4B700FC413D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F4916928B2B4B700FC413D /* Assets.xcassets */; };
 		08F4916D28B2B4B700FC413D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F4916C28B2B4B700FC413D /* Preview Assets.xcassets */; };
+		08F4917428B2C11000FC413D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F4917328B2C11000FC413D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08F4916228B2B4B500FC413D /* ProfileImageTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileImageTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F4916528B2B4B500FC413D /* ProfileImageTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageTutorialApp.swift; sourceTree = "<group>"; };
-		08F4916728B2B4B500FC413D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08F4916728B2B4B500FC413D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		08F4916928B2B4B700FC413D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08F4916C28B2B4B700FC413D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08F4917328B2C11000FC413D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				08F4916528B2B4B500FC413D /* ProfileImageTutorialApp.swift */,
-				08F4916728B2B4B500FC413D /* ContentView.swift */,
+				08F4916728B2B4B500FC413D /* ProfileView.swift */,
+				08F4917328B2C11000FC413D /* ImagePicker.swift */,
 				08F4916928B2B4B700FC413D /* Assets.xcassets */,
 				08F4916B28B2B4B700FC413D /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F4916828B2B4B500FC413D /* ContentView.swift in Sources */,
+				08F4917428B2C11000FC413D /* ImagePicker.swift in Sources */,
+				08F4916828B2B4B500FC413D /* ProfileView.swift in Sources */,
 				08F4916628B2B4B500FC413D /* ProfileImageTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

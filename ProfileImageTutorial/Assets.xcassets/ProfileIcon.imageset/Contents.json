@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "171-1712282_profile-icon-png-profile-icon-vector-png-transparent.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -11,7 +11,7 @@ import SwiftUI
 struct ProfileImageTutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProfileView()
         }
     }
 }
